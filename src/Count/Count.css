@@ -1,0 +1,38 @@
+#life {
+    margin-top: 35px;
+}
+
+#life .count {
+    background-color: red;
+    display: inline-block;
+    height: 20px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+
+#life .count:before,
+#life .count:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+  }
+  
+#life .count:before {
+    top: -10px;
+    left: 0;
+  }
+  
+#life .count:after {
+    left: 10px;
+    top: 0;
+  }
+
+#life .count.empty {
+    opacity: 0.4;
+}

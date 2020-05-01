@@ -1,0 +1,22 @@
+#keyboard {
+    margin-top: 30px;
+    max-width: 600px;
+    display: inline-block;
+}
+
+#keyboard button {
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    padding: 5px 20px;
+    border: 0;
+    margin: 5px;
+    font-size: 18px;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+#keyboard button.used{
+    opacity: 0.5;
+}

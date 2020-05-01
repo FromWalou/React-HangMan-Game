@@ -1,0 +1,15 @@
+#current_word span{
+    font-size: 40px;
+    border-bottom: 1px solid white;
+    margin: 0.5px;
+    padding: 5px 20px;
+    color: white;
+}
+
+#current_word span.lost{
+    color: red;
+}
+
+#current_word span.notfound{
+    color: rgba(255, 255, 255, 0.3);
+}
